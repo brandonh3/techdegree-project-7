@@ -87,7 +87,7 @@ window.onload = () => {
             settingsTimezone.value = localStorage.getItem(settingsTimezone.id);
         }
     }
-}
+};
 
 // Notifications
 notifBtn.addEventListener('click', () => {
@@ -369,7 +369,7 @@ function openNav() {
     mainNavUl.classList.add('overlay-content');
 
     for(let i = 0; i < mainNavLi.length; i++) {
-        mainNavLi[i].classList.add('overlay-content-li')
+        mainNavLi[i].classList.add('overlay-content-li');
     }
 
     for (let i = 0; i < navSVG.length; i++) {
@@ -385,7 +385,7 @@ function closeNav() {
     closeBtn.style.display = 'none';
 
     for (let i = 0; i < mainNavLi.length; i++) {
-        mainNavLi[i].classList.remove('overlay-content-li')
+        mainNavLi[i].classList.remove('overlay-content-li');
     }
 
     for (let i = 0; i < navSVG.length; i++) {
