@@ -29,39 +29,7 @@ const settingsTimezone = document.getElementById('timezone');
 let trafficGraph = document.getElementById('traffic-graph').getContext('2d');
 let trafficGraphHourly;
 let trafficGraphDaily;
-let trafficGraphWeekly = new Chart(trafficGraph, {
-    type: 'line',
-    data: {
-        labels: ['16-22', '23-29', '30-5', '6-12', '13-19', '20-26', '27-3', '4-10', '11-17', '18-24', '25-31'],
-        datasets: [{
-            data: [750, 1250, 1000, 1500, 2000, 1500, 1750, 1250, 1750, 2250, 1750, 2250],
-            backgroundColor: 'rgba(180, 183, 228, .5)',
-            borderColor: '#6568bc',
-            borderWidth: 1,
-            lineTension: 0,
-            pointRadius: 6,
-            pointBackgroundColor: 'white',
-            pointBorderWidth: 2
-        }]
-    },
-    options: {
-        legend: {
-            display: false
-        },
-        scales: {
-            xAxes: [{
-                gridLines: {
-                    color: "rgba(0, 0, 0, 0)",
-                }
-            }],
-            yAxes: [{
-                gridLines: {
-                    color: "rgba(0, 0, 0, 0)",
-                }
-            }]
-        }
-    }
-});;
+let trafficGraphWeekly;
 let trafficGraphMonthly;
 
 
