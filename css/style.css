@@ -209,8 +209,6 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-preferred-size: 1;
-      flex-basis: 1;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -1327,8 +1325,6 @@ input:checked + .slider:before {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 20px auto;
-  -ms-flex-preferred-size: 1;
-      flex-basis: 1;
 }
 
 .widget-whole {
@@ -1391,8 +1387,6 @@ input:checked + .slider:before {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-preferred-size: 1;
-      flex-basis: 1;
 }
 
 @media (min-width: 768px) {

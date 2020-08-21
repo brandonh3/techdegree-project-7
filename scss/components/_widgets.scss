@@ -6,7 +6,6 @@
     display: flex;
     justify-content: center;
     margin: 20px auto;
-    flex-basis: 1;
 }
 
 .widget-whole {
@@ -62,7 +61,6 @@
 .widget-container-social {
     display: flex;
     flex-direction: column;
-    flex-basis: 1;
 
     @include mq('med') {
         flex-direction: row;
