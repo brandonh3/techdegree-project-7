@@ -62,21 +62,21 @@
 
 // Nav Overlay Styles
 
-/* The Overlay (background) */
+// The Overlay (background) 
 .overlay {
-  z-index: 101; /* Sit on top */
+  z-index: 101;
   height: 100%;
   width: 100%;
-  position: fixed; /* Stay in place */
+  position: fixed;
   overflow: hidden;
   left: 0;
   top: 0;
   background-color: $darker-grey;
   opacity: 0.97;
-  transition: 0.5s ease-in-out; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  transition: 0.5s ease-in-out;
 }
 
-/* Position the content inside the overlay */
+// Position the content inside the overlay
 .overlay-content {
   width: 25%;
   display: flex;
@@ -89,19 +89,14 @@
   }
 }
 
-/* The navigation links inside the overlay */
+// The navigation links inside the overlay
 .overlay-content-li {
   margin-bottom: 6em;
-  transition: 0.3s; /* Transition effects on hover (color) */
+  transition: 0.3s;
 }
 
 .overlay-svg path {
     fill: $white;
-}
-
-/* When you mouse over the navigation links, change their color */
-.overlay-content-li:hover, .overlay-content-li:focus {
-  color: $white;
 }
 
 // Traffic Nav

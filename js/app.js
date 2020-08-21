@@ -146,13 +146,13 @@ new autoComplete({
 
 trafficNav.addEventListener('click', (event) => {
     if (event.target.nodeName == 'LI') {
-        event.target.parentNode.classList.add('active');
+        event.target.classList.add('active');
         console.log(event.target.id);
         console.log (trafficNavItem.length);
         for (let i = 0; i < trafficNavItem.length; i++) {
-            console.log(trafficNavItem[i].firstElementChild.id);
+            console.log(trafficNavItem[i].id);
             console.log(event.target.id);
-            if (trafficNavItem[i].firstElementChild.id != event.target.id) {
+            if (trafficNavItem[i].id != event.target.id) {
                 trafficNavItem[i].classList.remove('active');
             }
         }

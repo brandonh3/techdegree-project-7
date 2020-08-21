@@ -248,16 +248,12 @@ main {
 
 .active {
     background: $bright-green;
+    color: $white;
     border-radius: 10px;
-    padding-left: 0;
     margin-left: 5px;
     margin-right: -5px;
     margin-top: -5px;
-
-    & li {
-        color: $white;
-        padding: 5px;
-    }
+    padding: 5px;
 }
 
 .members-container,

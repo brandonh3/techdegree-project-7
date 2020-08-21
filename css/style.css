@@ -342,15 +342,11 @@ main {
 
 .active {
   background: #71e088;
+  color: #fff;
   border-radius: 10px;
-  padding-left: 0;
   margin-left: 5px;
   margin-right: -5px;
   margin-top: -5px;
-}
-
-.active li {
-  color: #fff;
   padding: 5px;
 }
 
@@ -1150,14 +1146,11 @@ img {
   cursor: pointer;
 }
 
-/* The Overlay (background) */
 .overlay {
   z-index: 101;
-  /* Sit on top */
   height: 100%;
   width: 100%;
   position: fixed;
-  /* Stay in place */
   overflow: hidden;
   left: 0;
   top: 0;
@@ -1165,10 +1158,8 @@ img {
   opacity: 0.97;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
-  /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
 
-/* Position the content inside the overlay */
 .overlay-content {
   width: 25%;
   display: -webkit-box;
@@ -1188,21 +1179,14 @@ img {
   border-left: none;
 }
 
-/* The navigation links inside the overlay */
 .overlay-content-li {
   margin-bottom: 6em;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  /* Transition effects on hover (color) */
 }
 
 .overlay-svg path {
   fill: #fff;
-}
-
-/* When you mouse over the navigation links, change their color */
-.overlay-content-li:hover, .overlay-content-li:focus {
-  color: #fff;
 }
 
 .traffic-nav-item:hover {

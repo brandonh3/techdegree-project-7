@@ -129,18 +129,10 @@
                 <div class="traffic-header">
                     <h4 class="widget-title">Traffic</h4>
                     <ul class="traffic-nav">
-                        <div class="traffic-nav-item">
-                            <li id="Hourly">Hourly</li>
-                        </div>
-                        <div class="traffic-nav-item">
-                            <li id="Daily">Daily</li>
-                        </div>
-                        <div class="traffic-nav-item active">
-                            <li id="Weekly">Weekly</li>
-                        </div>
-                            <div class="traffic-nav-item">
-                        <li id="Monthly">Monthly</li>
-                        </div>
+                        <li class="traffic-nav-item" id="Hourly">Hourly</li>
+                        <li class="traffic-nav-item" id="Daily">Daily</li>
+                        <li class="traffic-nav-item active" id="Weekly">Weekly</li>
+                        <li class="traffic-nav-item" id="Monthly">Monthly</li>
                     </ul>
                 </div>
                 <div class="widget-whole widget-container">
@@ -306,8 +298,8 @@
                 <div class="widget-alert">
                     <h4 class="widget-title">Message User</h4>
                     <div class="message-alert alert">
-                        <p class="message-sent success" id="alertMessage">Message sent</p>
-                        <p class="message-fail error" id="alertMessage">Fill out both fields</p>
+                        <p class="message-sent success alertMessage" id="message-sent">Message sent</p>
+                        <p class="message-fail error alertMessage" id="message-fail">Fill out both fields</p>
                     </div>
                 </div>
                 <div class="message-user-container">
@@ -323,8 +315,8 @@
                 <div class="widget-alert">
                     <h4 class="widget-title">Settings</h4>
                     <div class="settings-alert alert">
-                        <p class="settings-alert-msg success" id="settings-alert-msg">Settings saved</p>
-                        <p class="settings-reset-msg error" id="settings-alert-msg">Settings reset</p>
+                        <p class="settings-alert-msg success" id="settings-success">Settings saved</p>
+                        <p class="settings-reset-msg error" id="settings-reset">Settings reset</p>
                     </div>
                 </div>
                 <div class="settings-container">
